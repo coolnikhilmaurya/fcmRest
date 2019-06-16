@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "fcmRest", "fcmRest\", "{CF5CFEB2-AAF4-40B4-81AB-1CE2506908A7}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{80254c24-2502-4a06-9aef-684dcdec9532}|FCMHelper.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_60732"
 		Debug.AspNetCompiler.PhysicalPath = "fcmRest\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60732\"
@@ -25,13 +26,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "fcmRest", "fcmRest\", "{CF5
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCMHelper", "FCMHelper\FCMHelper.csproj", "{80254C24-2502-4A06-9AEF-684DCDEC9532}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CF5CFEB2-AAF4-40B4-81AB-1CE2506908A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF5CFEB2-AAF4-40B4-81AB-1CE2506908A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5CFEB2-AAF4-40B4-81AB-1CE2506908A7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5CFEB2-AAF4-40B4-81AB-1CE2506908A7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{80254C24-2502-4A06-9AEF-684DCDEC9532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80254C24-2502-4A06-9AEF-684DCDEC9532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80254C24-2502-4A06-9AEF-684DCDEC9532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80254C24-2502-4A06-9AEF-684DCDEC9532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
