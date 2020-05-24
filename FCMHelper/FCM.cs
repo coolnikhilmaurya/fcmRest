@@ -220,7 +220,7 @@ namespace FCMHelper
             }
             catch (Exception ex)
             {
-                result = "Couldn't send message due to server error.";
+                result = "Couldn't send message due to server error. Make sure you've replsced FCM_SERVER_KEY and FCM_SENDER_ID";
             }
             return result;
         }

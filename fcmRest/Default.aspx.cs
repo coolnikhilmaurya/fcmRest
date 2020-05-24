@@ -8,8 +8,8 @@ public partial class _Default : System.Web.UI.Page
     // tset FCM fcm = new FCM("AAAALCoP_fE:APA91bFYLhjeS0qS98-lqnoGV6UY7Fan4YcqWNhbSCGgCjs4FBhOMAw8jcPReg9dXYJ3KjBeosEDQyTvOusz_x0HdWn5lzP_FnEb4g4iKM2mwjuEof7Su8nFwga0GVeriEDnU5sdLQLj", "189684252145");
     // kickkare cred
     FCM fcm = new FCM(
-        FCM_SERVER_KEY : "AIzaSyArI2OIGyEX24Sx60t7JlzBugfG5kr4DoE",
-        FCM_SENDER_ID: "160807372587");
+        FCM_SERVER_KEY : "YOUR_FCM_SERVER_KEY",
+        FCM_SENDER_ID: "YOUR_FCM_SENDER_ID");
  
 
     protected void Page_Load(object sender, EventArgs e)
